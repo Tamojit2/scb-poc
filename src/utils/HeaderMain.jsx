@@ -47,10 +47,10 @@ const HeaderMain = () => {
               >
                 <AccountCircle />
           </IconButton>
-          <Typography variant="body2" style={{margin: '9px'}} >
+          <Typography variant="body2" style={{margin: '9px'}} sx={{ flexGrow: 1 }}>
             Group Id: 690603
         </Typography>
-        <Badge badgeContent={17} color="error" style={{margin: '10px', marginLeft: '1000px' }}>
+        <Badge badgeContent={17} color="error" style={{margin: '10px', marginLeft: '75px' }}>
             <NotificationsIcon />
         </Badge>
         <Button color="inherit" style={{margin: '10px' }} >Logout</Button>
