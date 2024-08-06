@@ -7,9 +7,12 @@ const Payment = () => {
   return (
     <>
         <Header text={'PAYMENT - PENDING APPROVAL'} />
-      <div className='bill-text' style={{margin: '10px', display: 'flex'}}>
+      <div className='bill-text' style={{margin: '10px'}}>
             <Typography variant="body1" gutterBottom>
-                Q0022706 | Cut of time 2 hrs from now
+                <b>Q0022706</b> | Cut of time 2 hrs from now
+            </Typography>
+            <Typography variant="body1" gutterBottom>
+                KRW 701
             </Typography>
             
         </div>

@@ -1,24 +1,3 @@
-// import * as React from 'react';
-// import { BarChart } from '@mui/x-charts/BarChart';
-
-// export default function WorkflowChart() {
-//   return (
-//     <BarChart
-//       series={[{ data: [1, 2] }]}
-//       xAxis={[{ scaleType: 'band', 
-//         data: ['A', 'B'],
-//         categoryGapRatio: 0.7
-//        }]}
-//       height={250}
-//       width={200}
-//       leftAxis={null}
-//     />
-//   );
-// }
-
-
-
-
 import React from "react";
 
 const WorkflowChart = () => {
