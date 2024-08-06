@@ -1,0 +1,95 @@
+.parent {
+    margin: 10px;
+}
+.container {
+    display: flex;
+    justify-content: space-around; /* Adjusts spacing between children */
+    align-items: center; /* Vertically centers children within the parent */
+    align-items: flex-start;
+    height: 100vh;
+    /* background-color: antiquewhite; */
+}
+
+.sub-container-1{
+    flex: 1; 
+    /* margin: 0 5px;  */
+    padding: 5px;
+    height: 450px;
+    /* background-color: #ebf2ec;  */
+     
+    display: flex; /* Makes the sub-child divs display vertically */
+    flex-direction: column; /* Arranges sub-child divs vertically */
+    align-items: center;
+}
+
+.sub-container-2{
+    flex: 1; 
+    /* margin: 0 5px;  */
+    padding: 5px;
+    height: 500px;
+    /* background-color: #ebf2ec;  */
+    display: flex; /* Makes the sub-child divs display vertically */
+    flex-direction: column; /* Arranges sub-child divs vertically */
+    align-items: center;
+}
+
+.sub-container-3{
+    flex: 1; 
+    /* margin: 5px;  */
+    /* padding: 5px; */
+    height: 350px;
+    margin-top: '5px';
+    /* background-color: #ebf2ec;  */
+    border-style: ridge;
+   
+}
+
+.sub-container-1-child-A1 {
+    width: 100%; /* Increases the width of each sub-child div */
+    height: 140px; /* Increases the height of each sub-child div */
+    border-style: ridge;
+    /* margin: 10px 0; Adds vertical spacing between sub-child divs */
+    /* padding: 5px; */
+    /* background-color: #d6e8f6; Background color for sub-child divs */
+    
+}
+
+.sub-container-1-child-A2 {
+    width: 100%; /* Increases the width of each sub-child div */
+    height: 300px; /* Increases the height of each sub-child div */
+    /* margin: 10px 0; Adds vertical spacing between sub-child divs */
+    border-style: ridge;
+    /* padding: 5px; */
+    /* background-color: #d6e8f6; /* Background color for sub-child divs */
+    /* color: black; /* Text color for sub-child divs */
+    /* display: flex; /* Allows flex properties on content of .sub-child */
+    /* flex-direction: column; */
+
+}
+
+
+.sub-container-2-child-B1 {
+    width: 100%; /* Increases the width of each sub-child div */
+    height: 150px; /* Increases the height of each sub-child div */
+    border-style: ridge;
+    /* margin: 10px 0; Adds vertical spacing between sub-child divs */
+    /* padding: 5px; */
+    /* background-color: #efe7cd; Background color for sub-child divs */
+    
+    /* color: black; Text color for sub-child divs */
+    
+}
+
+.sub-container-2-child-B2 {
+    width: 100%; /* Increases the width of each sub-child div */
+    height: 350px; /* Increases the height of each sub-child div */
+    /* margin: 10px 0; Adds vertical spacing between sub-child divs */
+    border-style: ridge;
+    /* padding: 5px; */
+    /* background-color: #efe7cd; /* Background color for sub-child divs */
+    /* color: black; Text color for sub-child divs */ 
+    /* display: flex;  */
+    /* Allows flex properties on content of .sub-child */
+
+}
+
