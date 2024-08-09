@@ -12,7 +12,7 @@ import CampaignOutlinedIcon from "@mui/icons-material/CampaignOutlined";
 const Home = () => {
   return (
 
-    <div>
+    <div className='main-container'>
         <HeaderMain />
         <div className='home-button-top' style={{margin: '10px', marginLeft: '14px'}}>
             <Button variant="contained" size="large" style={{width: '110px'}} >Home</Button>
