@@ -9,7 +9,7 @@ const Workflow = () => {
         <Header text={'PAYMENT IN LAST 7 DAYS (MY VIEW) '} />
         <div className='workflow-class'>
                 <WorkflowBarChart />
-                <footer className="footer" style={{marginTop: '-10px', color: "#999", display: 'flex',
+                <footer className="footer" style={{marginTop: '-2px', color: "#999", display: 'flex',
                     alignItems: 'center', gap: '0.4rem', fontSize: '12px' }}>
                     <CachedOutlinedIcon />
                     Last Updated 04/08/2024 04:09:41 PM
