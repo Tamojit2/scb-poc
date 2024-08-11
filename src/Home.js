@@ -47,7 +47,7 @@ const Home = () => {
                         <Workflow />
                     </div>
                     </div>
-                <div className='sub-container-3' style={{marginTop: '5px'}}>
+                <div className='sub-container-3'>
                         <Navigation />
                 </div>
             </div>
