@@ -3,12 +3,10 @@ import React from "react";
 const WorkflowChart = () => {
   
   return (
-    
           <div className="workflow" style={{display: 'flex', justifyContent: 'space-around', alignItems: 'flex-end' }}>
             <BarChart label="Processed by Bank" value={25} color="#3de98d" />
             <BarChart label="Rejected by Bank" value={14} color="#21adfe" />
           </div>
-        
   );
 };
 

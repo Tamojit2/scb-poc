@@ -1,6 +1,7 @@
 .pending-tasks-container {
     position: relative;
     background-color: #f9f9f9;
+    margin-bottom: 25px;
   }
   
   .tasks {
@@ -89,5 +90,9 @@
   
   .page-active {
     background-color: #007bff;
+  }
+
+  .pending-tab {
+    font-size: large;
   }
   

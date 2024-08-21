@@ -14,8 +14,7 @@ const Payment = () => {
             <Typography variant="body1" gutterBottom>
                 KRW 701
             </Typography>
-            
-        </div>
+      </div>
         
     </>
         
